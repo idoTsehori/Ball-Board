@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  font-family: cursive;
+  background-color: rgb(14, 13, 13);
+  color: white;
+}
+h1 {
+  color: rgb(137, 199, 61);
+}
+table {
+  margin: auto;
+}
+.restart-btn {
+  background-color: antiquewhite;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.game-details .victory-msg {
+  color: palevioletred;
+  text-align: center;
+  height: 0px;
+}
+.game-details .collect-msg {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.game-details .balls-around-msg {
+  display: inline-block;
+  margin-right: 50px;
+}
+.restart-btn:hover {
+  background-color: rgb(228, 208, 183);
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+.cell img {
+  width: 25px;
+  height: auto;
+}
+.floor {
+  background-color: gray;
+}
+.wall {
+  background-color: brown;
+}
+
+.hide {
+  display: none;
+}
